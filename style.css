@@ -1,0 +1,35 @@
+#chinkali {
+    height: 175px;
+}
+
+#charcho {
+    height: 175px;
+}
+
+#samsa {
+    height: 175px;
+}
+
+#chahohbili {
+    height: 175px;
+}
+
+#churchhela {
+    height: 175px;
+}
+
+#menu {
+    margin-left: 25px;
+    margin-top: 65px;
+}
+
+#menu_title {
+    border: none;
+    background-color: rgb(163, 154, 154);
+    color: rgb(163, 154, 154);
+    height: 2px;
+}
+
+#bg-site {
+    background-color: beige;
+}

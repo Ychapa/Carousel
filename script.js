@@ -4,3 +4,6 @@ $("#carousel").carousel({
     ride: true,
     keyboard: true,
 });
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
