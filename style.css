@@ -33,3 +33,58 @@
 #bg-site {
     background-color: beige;
 }
+
+#chachapuri {
+    height: 175px;
+}
+
+#Home {
+    height: 30px;
+    width: 30px;
+}
+
+#logo {
+    font-size: 22px;
+}
+
+#login_button {
+    color: black;
+    background-color: beige;
+}
+
+#registration_button {
+    color: black;
+    background-color: beige;
+    margin-right: 5px;
+}
+
+#login_button:hover {
+    color: black;
+    background-color: beige;
+    border-radius: 5px;
+    border-color: darkgoldenrod;
+}
+
+#registration_button:hover {
+    color: black;
+    background-color: beige;
+    border-radius: 5px;
+    border-color: darkgoldenrod;
+}
+
+.navbar {
+    border-radius: 10px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+#menu_img {
+    width: 30px;
+    height: 30px;
+}
+
+#tel {
+    margin-right: 20px;
+}

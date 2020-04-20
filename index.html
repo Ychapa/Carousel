@@ -14,6 +14,24 @@
 </head>
 
 <body id="bg-site">
+    <nav class="navbar fixed-top navbar-light bg-secondary navbar-expand-sm">
+        <div class="navbar-brand text-white" id="logo"><img src="10.png">Ваш Лаваш</div>
+        <ul class="navbar-nav mr-auto text-white">
+            <li class="nav-item-active">
+                <a href="#carousel" class="nav-link text-white"><img id="Home" src="main.png">Главная</a>
+            </li>
+            <li class="nav-item">
+                <a href="#menu_title" class="nav-link text-white"><img id="menu_img" src="menu.png">Меню</a>
+            </li>
+
+        </ul>
+        <form class="form-inline">
+            <a href="tel:+78005553535" id="tel" class="nav-link text-white"><img id="menu_img"
+                    src="russia.png">+7(800)-555-35-35</a>
+            <button type="submit" id="registration_button" class="btn">Зарегистрироваться</button>
+            <button type="submit" id="login_button" class="btn">Войти</button>
+        </form>
+    </nav>
     <div class="container text-center">
 
         <div id="carousel" class="carousel slide carousel-fade d-inline-block" data-ride="carousel">
@@ -46,13 +64,14 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </a>
         </div>
+
         <h1 id="menu_title">Меню</h1>
         <div id="menu" class="container-fluid">
             <div class="row justify-content-between">
                 <div class="col">
                     <div class="card text-white bg-secondary" style="width: 18rem;">
                         <div class="card-header">Хачапури</div>
-                        <img class="card-img-top" src="chachapuri.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="chachapuri.jpg" id="chachapuri" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Хачапури</h5>
                             <p class="card-text">Очень вкусно, пальчики оближешь</p>
@@ -208,6 +227,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script type="text/javascript" src="https://spikmi.com/Widget?Id=2658"></script>
     <script src="script.js"></script>
 </body>
 
