@@ -7,3 +7,6 @@ $("#carousel").carousel({
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
+$("registration_button").click(function () {
+    $("registrator").css("display", "block")
+})

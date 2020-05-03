@@ -88,3 +88,7 @@
 #tel {
     margin-right: 20px;
 }
+
+#registrator {
+    display: none;
+}
